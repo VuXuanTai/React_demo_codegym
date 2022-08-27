@@ -12,14 +12,16 @@ import Button from './components/button';
 import Headlineclass from './components/HeadlineClass';
 import AlertComponent from './components/Alert';
 import Studentinfo from './components/StudentInfoComponent';
+import BMICal from './components/BMI';
 
 
 const container =document.getElementById('root');
 const root = createRoot(container);
 root.render(
     //<AlertComponent text="Cảnh báo! Tài nguyên bạn vừa truy cập không tồn tại."/>
-    <Studentinfo ID = "1"  Name = 'Nguyễn Văn A' Age= "30" Address= 'Hà Nội' />
-    );
+    //<Studentinfo />
+    <BMICal />
+);
 
 
 
